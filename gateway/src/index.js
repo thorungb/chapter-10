@@ -46,6 +46,8 @@ async function main() {
             url: `/api/video?id=${videoId}`,
         };
         
+        console.log("Hello world");
+        
         // Renders the video for display in the browser.
         res.render("play-video", { video });
     });
